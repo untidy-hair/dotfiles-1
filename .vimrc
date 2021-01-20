@@ -64,7 +64,9 @@ let g:solarized_termtrans=1
 " Make Vim more useful
 set nocompatible
 " Use the OS clipboard by default (on versions compiled with `+clipboard`)
-set clipboard=unnamed
+" set clipboard=unnamed
+" Do not use the OS clipboard
+set clipboard=
 " Enhance command-line completion
 set wildmenu
 " Allow cursor keys in insert mode
